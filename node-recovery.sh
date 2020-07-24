@@ -3,7 +3,7 @@
 
 until node .; do
     date +"%r"
-    echo "Server 'nodejs' crashed with exit code $?.  Respawning.." >&2
+    echo "Server 'roon-extension-dynaudio' crashed with exit code $?.  Respawning.." >&2
 sleep 1
 done
 
